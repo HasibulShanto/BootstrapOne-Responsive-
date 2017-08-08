@@ -1,0 +1,51 @@
+/*Extra small phones*/
+
+@media (max-width: 475px) {
+	h1{font-size: 22px !important;font-weight: 700;}
+	p{font-weight: 300; font-size: 14px !important;}
+#header_section,.header_banner{
+	height: 90vh !important;
+	width: 100%;
+}
+.Center_text h1{
+	font-size: 22px !important; 
+}
+.Center_text h4{
+	font-size: 14px !important;
+}
+.visible-xs button{ 
+	margin-top: 2% !important;
+}
+.intro_content h1{ 
+	text-align: center;
+}
+.button_intro button{ 
+	text-transform: uppercase;
+	display: block;
+	width: 120px;
+	margin-left: 30%;
+	margin-top: 2%;
+}
+.foot_menu p{
+	font-weight: 600;
+	font-size: 11px !important;
+	color: grey;
+}
+
+/*Small media Tablets*/
+
+@media (min-width:768px){ 
+	.intro_content h1{
+		font-size: 25px !important;
+	}
+}
+/*Desktop*/
+
+@media (min-width:  1024px) and (max-width: 1199) {
+	.intro_content h1{
+		font-size: 35px !important;
+	}
+}
+/*Extra large screen*/
+
+@media (min-width: 1200) { ... }

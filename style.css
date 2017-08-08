@@ -1,0 +1,178 @@
+/* author :Hasibul Hasan Shanto
+   email:kajal.shanto@gmail.com
+   Aug 08/2017 
+*/
+
+*{
+  margin:0;
+  padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ 
+ 
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+p{
+	 font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 200;
+}
+body{
+	font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background: #fff;
+}
+.navbar{
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+#header_section{
+  width:100%;
+  height:90vh;
+  background:url(banner-bg.jpg);
+  background-position: center center;
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+.header_banner{
+	width:100%;
+  	height:90vh;
+	position: relative;
+}
+.Center_text{
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); 
+}
+.Center_text h1{
+	font-size: 60px;
+}
+.Center_text h4{
+	font-size: 22px;
+}
+.Center_text button{ 
+	text-transform: uppercase;
+}
+.btn i{
+	padding-right: 8px;
+}
+/*small button*/
+.btn-group-xs>.btn, .btn-xs {
+    padding: 1px 5px;
+    font-size: 10px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+.btn-group-vertical>.btn{
+    border-radius: 4px !important; 
+}
+
+
+/*start tab section*/
+#Tab_section{
+	padding: 60px 0;
+	background: #F8F8F8;
+	border-bottom: 1px solid #E7E7E7;
+	color: #333333;
+}
+.tab_right img{
+	width: 100%;
+}
+.tab_content h1 span{
+	display: block;
+}
+.tab_content p{
+	font-size: 18px;
+}
+
+/*end tab section*/
+
+
+/*Dog section start*/
+#dog_section{
+	padding: 40px 0;  
+	border-bottom: 1px solid #E7E7E7;
+	color: #333333;
+}
+.dog_content h1 span{
+	display: block;
+}
+.dog_content p{
+	font-size: 18px;
+}
+ 
+/*dog section end*/
+
+/*web fonts section start*/
+#google_fonts{
+	padding: 40px 0;  
+	border-bottom: 1px solid #E7E7E7;
+	color: #333333;
+	background: #F8F8F8;
+}
+
+.web_content h1 span{
+	display: block;
+}
+.web_content p{
+	font-size: 18px;
+}
+/*web fonts section end*/
+
+/*intro bg start*/
+#intro_bg{
+	padding: 100px 0;  
+	background: url(intro-bg.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.intro_content h1{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 700;
+}
+.button_intro{
+	margin-top: 3%;
+}
+.button_intro button{ 
+	text-transform: uppercase;
+}
+.button_intro>.btn i{
+	padding-right: 8px;
+}
+
+
+/*intro bg end*/
+
+/*footer section*/
+#footer_section{
+	padding: 40px 0;
+
+}
+
+.footer-menu-divider{
+	font-size: 10px;
+}
+.foot_menu p{
+	font-weight: 600;
+	font-size: 11px;
+	color: grey;
+}
